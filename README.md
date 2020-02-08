@@ -1,6 +1,8 @@
 # TP-Link Archer T4U V3 Driver Script
 This is an auto installation script for TP-Link Archer T4U V3 Driver **rtl8822bu**
 
+To run it on raspberry pi, at downloaded location, in terminal **./TP-Link-T4U-Driver-Script**
+
 lsusb = 2357:0115
 
 ### Tested platform 

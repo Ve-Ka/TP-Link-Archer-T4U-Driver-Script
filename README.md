@@ -24,5 +24,5 @@ e. exit
 
 ### Credits 
 
-This script was created for simplification of installation based of user guide online and below are the links for source
+This script was created for simplification of installation based off user guide online and below are the links for source
 1. https://github.com/jeremyb31/rtl8822bu.git

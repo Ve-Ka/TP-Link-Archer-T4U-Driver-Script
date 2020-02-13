@@ -19,7 +19,7 @@ function install-lshw ()
 function update_dkms_with_driver ()
 {
   sudo apt install git dkms build-essential
-  sudo dkms add ./rtl9922bu
+  sudo dkms add ./rtl8822bu
   sudo dkms install 8822bu/1.1 
 }
 

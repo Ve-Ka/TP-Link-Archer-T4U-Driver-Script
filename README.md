@@ -26,3 +26,4 @@ e. exit
 
 This script was created for simplification of installation based off user guide online and below are the links for source
 1. https://github.com/jeremyb31/rtl8822bu.git
+2. https://youtu.be/8qzHwqFBFh4

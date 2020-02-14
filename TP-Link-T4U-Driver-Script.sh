@@ -77,13 +77,6 @@ while true ; do
   elif [ "$choice" == "5" ]; then
     install_network_manager 
 
-  elif [ "$choice" == "6" ]; then
-    update_pi
-    install_lshw
-    update_dkms_with_driver
-    install_rtl8822bu
-    install_network_manager 
-
   elif [ "$choice" == "e" ]; then
     echo programme exiting...
     echo

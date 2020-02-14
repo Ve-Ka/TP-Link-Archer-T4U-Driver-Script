@@ -14,12 +14,10 @@ lsusb = 2357:0115
 Menu
 1. update pi
 2. install lshw
-3. update dkms with rtl8822bu
-4. install rtl8822bu 
-5. install network manager
-6. execute all above
+3. install rtl8822bu 
+4. install network manager
 e. exit
-
+**if the programme shows any error, reboot and rerun the command
 ###### For new user, select option 6 for complete installation.
 
 ### Credits 

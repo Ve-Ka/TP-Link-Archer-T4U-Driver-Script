@@ -10,7 +10,7 @@ function update_pi ()
 }
 
 
-function install-lshw ()
+function install_lshw ()
 {
   sudo apt-get install lshw
 }
@@ -66,7 +66,7 @@ while true ; do
     update_pi
 
   elif [ "$choice" == "2" ]; then
-    install-lshw
+    install_lshw
 
   elif [ "$choice" == "3" ]; then
     update_dkms_with_driver
@@ -79,7 +79,7 @@ while true ; do
 
   elif [ "$choice" == "6" ]; then
     update_pi
-    install-lshw
+    install_lshw
     update_dkms_with_driver
     install_rtl8822bu
     install_network_manager 

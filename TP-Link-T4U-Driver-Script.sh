@@ -31,7 +31,7 @@ function install_rtl8822bu ()
   sudo make
   sudo make install
   cd /home/pi/Downloads
-  #sudo rm -rf rtl8822bu
+  sudo rm -rf rtl8822bu
 }
 
 

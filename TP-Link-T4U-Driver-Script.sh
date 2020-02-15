@@ -49,7 +49,7 @@ while true ; do
   echo
   echo Menu
   echo 1. update pi
-  echo 2. install lshw & nload
+  echo 2. install lshw and nload
   echo 3. install rtl8822bu
   echo 4. install network manager
   echo e. exit

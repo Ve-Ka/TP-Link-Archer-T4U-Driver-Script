@@ -52,7 +52,7 @@ while true ; do
   echo 2. install lshw and nload
   echo 3. install rtl8822bu
   echo 4. install network manager
-  echo e. exit
+  echo 5. exit
 
   read -p "Choice: " choice
   echo
@@ -69,7 +69,7 @@ while true ; do
   elif [ "$choice" == "4" ]; then
     install_network_manager  
 
-  elif [ "$choice" == "e" ]; then
+  elif [ "$choice" == "5" ]; then
     echo programme exiting...
     echo
     break

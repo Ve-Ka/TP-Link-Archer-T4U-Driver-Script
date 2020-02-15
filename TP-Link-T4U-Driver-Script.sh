@@ -11,9 +11,10 @@ function update_pi ()
 }
 
 
-function install_lshw ()
+function install_lshw_nload ()
 {
   sudo apt-get install lshw
+  sudo apt-get install nload
 }
 
 
@@ -48,7 +49,7 @@ while true ; do
   echo
   echo Menu
   echo 1. update pi
-  echo 2. install lshw
+  echo 2. install lshw & nload
   echo 3. install rtl8822bu
   echo 4. install network manager
   echo e. exit
@@ -60,7 +61,7 @@ while true ; do
     update_pi
 
   elif [ "$choice" == "2" ]; then
-    install_lshw
+    install_lshw_nload
   
   elif [ "$choice" == "3" ]; then
     install_rtl8822bu

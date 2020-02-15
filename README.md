@@ -16,7 +16,7 @@ Menu
 2. install lshw & nload
 3. install rtl8822bu 
 4. install network manager
-e. exit
+5. exit
 
 ###### If the programme shows any error, reboot and rerun the command that caused the error!
 
